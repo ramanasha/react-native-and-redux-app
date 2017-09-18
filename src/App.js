@@ -1,14 +1,29 @@
 // Import
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { StatusBar, View, Text } from 'react-native';
 
 // Component
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
         <View>
-            <Text>Hello World</Text>
+            <StatusBar
+                backgroundColor="darkred"
+                barStyle="light-content"
+            />
+            <View>
+                <Text>Hello World</Text>
+            </View>
         </View>
     );
   }
 }
+
+// Styles
+const styles = StyleSheet.create({
+    container: {
+    }
+});
+
+// Export
+export default App;
