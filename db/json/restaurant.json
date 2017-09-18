@@ -1,0 +1,112 @@
+{
+    "restaurants" : [
+        {
+            "name" : "Maxime's Restaurant and Lounge",
+            "image" : "maximes-restaurant-and-lounge.jpg",
+            "averageTime" : "32 ~ 50 min",
+            "ranking" : "9.2",
+            "drinks" : "false",
+            "location" : "1131 St Mary's Rd | Manitoba, Winnipeg, Manitoba R2M 3T9, Canada",
+            "menu" : [
+                {
+                    "name" : "Smoked Turkey Wrap",
+                    "image" : "smoked-turkey-wrap.jpg",
+                    "price" : "14,99",
+                    "ingredients" : "Smoked in house turkey breast, walnut butter, avocado, cucumber, tomatoes, hummus, provolone, zucchini, red onions and carrots in a whole wheat tortilla wrap. Accompanied by a citrus garlic parmesan kale salad or sweet potato fries. Served with the soup du jour to start."
+                },
+                {
+                    "name" : "Harissa Stuffed Bone-in Chicken",
+                    "image" : "harissa-stuffed-bone-in-chicken.jpg",
+                    "price" : "26,99",
+                    "ingredients" : "An 8 oz.chicken breast, bone in, stuffed with mejool dates, charred cauliflower, fresh dill, mint, pistachios & feta cheese and presented with a harissa red chili pepper cream sauce. Accompanied by middle eastern roasted lemon, garlic and cilantro fingerling potatoes and roasted butternut squash, zucchini, carrots and red onions. Served with the soup du jour or the house field green salad to start."
+                }
+            ]
+        },
+        {
+            "name" : "Hermanos Restaurant",
+            "image" : "hermanos-restaurant.jpg",
+            "averageTime" : "43 ~ 54 min",
+            "ranking" : "9.6",
+            "drinks" : "false",
+            "location" : "179 Bannatyne, Winnipeg, Manitoba R3B 0R4, Canada",
+            "menu" : [
+                {
+                    "name" : "Steak Salad",
+                    "image" : "steak-salad.jpg",
+                    "price" : "19,50",
+                    "ingredients" : "Grilled steak served over a bed of romaine lettuce, grilled vegetables and criolla dressed with balsamic reduction and olive oil."
+                },
+                {
+                    "name" : "Gringo Burguer",
+                    "image" : "gringo-burguer.jpg",
+                    "price" : "14,00",
+                    "ingredients" : "Cheddar, aioli, and all the usual suspects, served with house chips."
+                }
+            ]
+        },
+        {
+            "name" : "Carnaval Brazilian BBQ",
+            "image" : "carnaval-brazilian-bbq.jpg",
+            "averageTime" : "28 ~ 36 min",
+            "ranking" : "9.7",
+            "drinks" : "false",
+            "location" : "270 Water Front Drive, Winnipeg, Manitoba R3B 0R6, Canada",
+            "menu" : [
+                {
+                    "name" : "Carnaval BBQ Ribs Full Rack",
+                    "image" : "carnaval-bbq-ribs-full-rack.jpg",
+                    "price" : "28,00",
+                    "ingredients" : "Baby pork ribs slow roasted in our chef’s marinade and speciality BBQ sauce served with fries or salad."
+                }
+            ]
+        },
+        {
+            "name" : "Pho Hoang Restaurant",
+            "image" : "pho-hoang-restaurant.jpg",
+            "averageTime" : "31 ~ 50 min",
+            "ranking" : "9.2",
+            "drinks" : "false",
+            "location" : "794 Sargent Ave, Winnipeg, Manitoba R3E 0B7, Canada",
+            "menu" : [
+                {
+                    "name" : "Asian Chicken Wings",
+                    "image" : "asian-chicken-wings.jpg",
+                    "price" : "7,95",
+                    "ingredients" : "Chicken wings, black pepper, white pepper, vietnamese sauce, shaoxing wine and egg."
+                }
+            ]
+        },
+        {
+            "name" : "King's Head Pub",
+            "image" : "kings-head-pub.jpg",
+            "averageTime" : "8 ~ 13 min",
+            "ranking" : "9.2",
+            "drinks" : "true",
+            "location" : "120 King St, Winnipeg, Manitoba R3B 1H9, Canada",
+            "menu" : [
+                {
+                    "name" : "Torque Brewing",
+                    "image" : "torque-brewing.jpg",
+                    "price" : "4,50",
+                    "ingredients" : ""
+                }
+            ]
+        },
+        {
+            "name" : "The Grove Pub & Restaurant",
+            "image" : "the-grove-pub-and-restaurant.jpg",
+            "averageTime" : "16 ~ 25 min",
+            "ranking" : "9.4",
+            "drinks" : "true",
+            "location" : "164 Stafford St, Winnipeg, Manitoba R3M 2V8, Canada",
+            "menu" : [
+                {
+                    "name" : "Xtra-Citra Pale Ale",
+                    "image" : "xtra-citra-pale-ale.jpg",
+                    "price" : "5,30",
+                    "ingredients" : ""
+                }
+            ]
+        }
+    ]
+}
