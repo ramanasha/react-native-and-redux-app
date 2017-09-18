@@ -1,18 +1,21 @@
 // Import
 import React, { Component } from 'react';
-import { StatusBar, View, Text } from 'react-native';
+import { StyleSheet, StatusBar, View, Image, TouchableOpacity, Text } from 'react-native';
 
 // Component
 class App extends Component {
   render() {
     return (
-        <View>
+        <View style={styles.container}>
             <StatusBar
-                backgroundColor="darkred"
+                backgroundColor="#B71C1C"
                 barStyle="light-content"
             />
-            <View>
-                <Text>Hello World</Text>
+            <View style={styles.main}>
+                <Image source={require('../assets/images/logo.png')} />
+                <TouchableOpacity>
+                    <Text style={styles.font}>Get Started</Text>
+                </TouchableOpacity>
             </View>
         </View>
     );
@@ -22,6 +25,17 @@ class App extends Component {
 // Styles
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
+        backgroundColor: '#F44336'
+    },
+    main: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    font: {
+        fontSize: 22,
+        color: '#FFFFFF'
     }
 });
 
