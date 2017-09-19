@@ -16,9 +16,9 @@ React native project application using redux predictable state container to crea
 10. Contact form
 11. Ranking restaurant
 
-## App Wireframe
-1. Logo app
-2. Restaurant list
+## App Screens
+1. Index
+2. Restaurants list
 3. Menu options
 4. Order tracker
 

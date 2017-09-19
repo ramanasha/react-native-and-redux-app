@@ -1,6 +1,7 @@
-// Import
+// Imports
 import React, { Component } from 'react';
-import { StyleSheet, StatusBar, View, Image, TouchableOpacity, Text } from 'react-native';
+import { StyleSheet, StatusBar, View } from 'react-native';
+import IndexScreen from './components/IndexScreen';
 
 // Component
 class App extends Component {
@@ -11,12 +12,7 @@ class App extends Component {
                 backgroundColor="#B71C1C"
                 barStyle="light-content"
             />
-            <View style={styles.main}>
-                <Image source={require('../assets/images/logo.png')} />
-                <TouchableOpacity>
-                    <Text style={styles.font}>Get Started</Text>
-                </TouchableOpacity>
-            </View>
+            <IndexScreen />
         </View>
     );
   }
@@ -27,15 +23,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#F44336'
-    },
-    main: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    font: {
-        fontSize: 22,
-        color: '#FFFFFF'
     }
 });
 
