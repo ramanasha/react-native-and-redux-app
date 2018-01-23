@@ -1,5 +1,5 @@
-# react-native-and-redux-app
-React native project application using redux predictable state container to create a delivery food app:
+# React native and redux app
+:iphone::hamburger: React native project application using redux predictable state container to create a delivery food app:
 * React native
 * Redux pattern
 
@@ -16,7 +16,7 @@ React native project application using redux predictable state container to crea
 10. Contact form
 11. Ranking restaurant
 
-## App Screens
+## App screens
 1. Index
 2. Restaurants list
 3. Menu options
